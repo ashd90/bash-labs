@@ -1,0 +1,12 @@
+# Ignore log files
+*.log
+
+# Ignore compressed backups
+*.tar.gz
+
+# Ignore data/temporary files
+*.csv
+*.txt
+
+# Exception: Don't ignore the users list needed for the script
+!03-user-management/users.txt
